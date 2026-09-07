@@ -34,8 +34,9 @@ eeg-cognitive-control-erp-analysis/
 ├── figures/
 ├── README.md
 └── .gitignore
+```
 
-## Event Exploration
+Event Exploration
 
 Experimental events are encoded in the stimulus channel `STI 014`.
 MNE detected 320 events in the recording.
