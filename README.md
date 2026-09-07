@@ -47,3 +47,11 @@ Each event is represented by three values:
 
 The event ID identifies the type of experimental event.
 
+### EEG Preprocessing
+
+The preprocessing notebook currently includes:
+
+- EEG and EOG channel selection
+- Inspection of continuous EEG signals
+- Band-pass filtering
+
