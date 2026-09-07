@@ -49,6 +49,18 @@ The event ID identifies the type of experimental event.
 
 ### EEG Preprocessing
 
+## Experimental Conditions
+
+The experiment contains auditory and visual stimuli presented on the left
+or right side.
+
+The four stimulus conditions used for ERP analysis are:
+
+- 1: auditory left
+- 2: auditory right
+- 3: visual left
+- 4: visual right
+
 The preprocessing notebook currently includes:
 
 - EEG and EOG channel selection
