@@ -29,7 +29,7 @@ The main objective is to understand the complete workflow of Event-Related Poten
 eeg-cognitive-control-erp-analysis/
 ├── data/
 ├── notebooks/
-│   └── 01_explore_raw.ipynb
+│   └── 01_explore_raw_data.ipynb
 ├── src/
 ├── figures/
 ├── README.md
