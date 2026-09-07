@@ -29,8 +29,21 @@ The main objective is to understand the complete workflow of Event-Related Poten
 eeg-cognitive-control-erp-analysis/
 ├── data/
 ├── notebooks/
-│   └── 01_explore_raw.ipynb
+│   └── 01_explore_raw_data.ipynb
 ├── src/
 ├── figures/
 ├── README.md
 └── .gitignore
+```
+
+Event Exploration
+
+Experimental events are encoded in the stimulus channel `STI 014`.
+MNE detected 320 events in the recording.
+
+Each event is represented by three values:
+
+`[sample number, previous trigger value, event ID]`
+
+The event ID identifies the type of experimental event.
+
