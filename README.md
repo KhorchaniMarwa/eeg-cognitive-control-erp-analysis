@@ -67,3 +67,9 @@ The preprocessing notebook currently includes:
 - Inspection of continuous EEG signals
 - Band-pass filtering
 
+ ## Epoch Inspection
+
+Before computing ERPs, the epochs are inspected for artifacts.
+Trials containing excessive noise or large signal amplitudes can distort
+the averaged ERP and should therefore be identified before averaging.
+
